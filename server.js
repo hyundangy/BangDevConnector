@@ -7,6 +7,9 @@ const app = express();
 // Connect Database in db.js
 connectDB();
 
+// Init Middleware
+app.use (express.json({ extended: false }))
+
 app.get('/', (req, res) => res.send('API Runnning'));
 
 // Defile Routes
