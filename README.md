@@ -1,6 +1,6 @@
 # BangDevConnector
 
-### Community Website for Developers
+### Community Webapp for Developers
 
 ### Author: Hyun Suk Bang
 
